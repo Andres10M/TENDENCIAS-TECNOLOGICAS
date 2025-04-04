@@ -23,29 +23,13 @@ Para desarrollar aplicaciones modernas con Angular, es importante comprender el 
 
 (Se incluirán imágenes explicativas de cada concepto)
 
- - Captura: 
-
-<img src = "Linux/Captura de pantalla 2025-04-02 205826.png" width = "500">
-### Conceptos clave:
-
-
- - Captura: 
-
-<img src = "Linux/Captura de pantalla 2025-04-02 205826.png" width = "500">
-
- - Captura: 
-
-<img src = "Linux/Captura de pantalla 2025-04-02 205826.png" width = "500">
-
- - Captura: 
-
-<img src = "Linux/Captura de pantalla 2025-04-02 205826.png" width = "500">
 
 
 
-### Conceptos clave:
+ 
 
-### Conceptos clave:
+
+
 
 ### Conceptos clave:
 ## 4. Conocimientos previos
@@ -85,6 +69,10 @@ Ejecutar en **PowerShell**:
 wsl --install -d Ubuntu
 ```
 
+ - Captura: 
+
+<img src = "Linux/Captura de pantalla 2025-04-02 205826.png" width = "500">
+
 ### Paso 2: Instalar Node.js y npm
 Ejecutar en la terminal de **Ubuntu**:
 
@@ -95,6 +83,9 @@ sudo apt install -y nodejs
 node -v  # Verificar versión
 npm -v   # Verificar versión
 ```
+- Captura: 
+
+<img src = "Linux/Captura de pantalla 2025-04-02 213435.png" width = "500">
 
 ### Paso 3: Instalar Angular CLI
 
@@ -103,18 +94,30 @@ npm install -g @angular/cli
 ng version
 ```
 
+- Captura: 
+
+<img src = "Linux/Captura de pantalla 2025-04-02 213435.png" width = "500">
+
 ### Paso 4: Crear un proyecto Angular
 
 ```sh
 ng new linux-angular
 cd linux-angular
 ```
+- Captura: 
+
+<img src = "Linux/Captura de pantalla 2025-04-02 213435.png" width = "500">
 
 ### Paso 5: Ejecutar el servidor de desarrollo
 
 ```sh
 ng serve
 ```
+
+- Captura: 
+
+<img src = "Linux/Captura de pantalla 2025-04-02 215604.png" width = "300">
+ 
 
 **Figura 1-1:** Captura de pantalla del servidor corriendo en `localhost:4200`.
 
