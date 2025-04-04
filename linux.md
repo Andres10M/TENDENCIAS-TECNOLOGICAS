@@ -63,7 +63,7 @@ Para realizar esta práctica, el estudiante necesita conocer:
 ## 8. Procedimiento
 
 ### Paso 1: Instalar WSL2 y Ubuntu
-Ejecutar en **PowerShell**:
+Ejecutar en **PowerShell** como administrador e instalar solo por medio de comandos tanto **wsl** como **Ubuntu**:
 
 ```sh
 wsl --install -d Ubuntu
@@ -74,7 +74,17 @@ wsl --install -d Ubuntu
 <img src = "Linux/Captura de pantalla 2025-04-02 205826.png" width = "500">
 
 ### Paso 2: Instalar Node.js y npm
-Ejecutar en la terminal de **Ubuntu**:
+Instalación de  **WSL2** (*Windows Subsystem for Linux*) en nuestro ordenador para el funcionamiento de comandos.
+
+
+- Captura: 
+
+<img src = "Linux/Captura de pantalla 2025-04-02 213729.png" width = "500">
+
+
+
+### Paso 3: Instalar Node.js y npm
+Ejecutar en la terminal de **Ubuntu** y confirmar las correcta instalación de todos los paquetes necesarios para la ejecución de los comando de linux:
 
 ```sh
 sudo apt update && sudo apt upgrade -y
@@ -87,7 +97,7 @@ npm -v   # Verificar versión
 
 <img src = "Linux/Captura de pantalla 2025-04-02 213435.png" width = "500">
 
-### Paso 3: Instalar Angular CLI
+### Paso 4: Instalar Angular CLI
 
 ```sh
 npm install -g @angular/cli
@@ -96,26 +106,31 @@ ng version
 
 - Captura: 
 
-<img src = "Linux/Captura de pantalla 2025-04-02 213435.png" width = "500">
+<img src = "Linux/image.png" width = "500">
 
-### Paso 4: Crear un proyecto Angular
+### Paso 5: Crear un proyecto Angular
 
 ```sh
 ng new linux-angular
 cd linux-angular
+
 ```
 - Captura: 
 
-<img src = "Linux/Captura de pantalla 2025-04-02 213435.png" width = "500">
+<img src = "Linux/Captura de pantalla 2025-04-02 215113.png" width = "500">
 
-### Paso 5: Ejecutar el servidor de desarrollo
+### Paso 6: Ejecutar el servidor de desarrollo
 
 ```sh
 ng serve
 ```
 
-- Captura: 
+- Capturas: 
 
+ 
+
+<img src = "Linux/Captura de pantalla 2025-04-02 215555.png" width = "300">
+ 
 <img src = "Linux/Captura de pantalla 2025-04-02 215604.png" width = "300">
  
 
