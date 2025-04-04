@@ -59,7 +59,7 @@ Para realizar esta práctica, el estudiante necesita conocer:
 - [Documentación de Angular](https://angular.io/)
 - [Documentación de WSL](https://learn.microsoft.com/en-us/windows/wsl/)
 - Guía de comandos básicos de Linux.
-
+- Guía video colocado en la plataforma virtual del Instituto https://drive.google.com/file/d/1OitqZ02pX7VHaVx3qH9eF31mQent65rk/view
 ## 8. Procedimiento
 
 ### Paso 1: Instalar WSL2 y Ubuntu
@@ -73,7 +73,7 @@ wsl --install -d Ubuntu
 
 <img src = "Linux/Captura de pantalla 2025-04-02 205826.png" width = "500">
 
-### Paso 2: Instalar Node.js y npm
+### Paso 2: Instalación de Windows Subsystem for linux
 Instalación de  **WSL2** (*Windows Subsystem for Linux*) en nuestro ordenador para el funcionamiento de comandos.
 
 
