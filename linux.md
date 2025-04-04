@@ -6,7 +6,7 @@
 
 ## 2. Tiempo de duración
 
-Aproximadamente **90 minutos**.
+Aproximadamente ** 180 minutos**.
 
 ## 3. Fundamentos
 
@@ -14,10 +14,7 @@ Para desarrollar aplicaciones modernas con Angular, es importante comprender el 
 
 **Angular** es un framework de desarrollo basado en TypeScript que permite la creación de aplicaciones web SPA (*Single Page Applications*). Se ejecuta en un entorno Node.js y usa paquetes gestionados por npm (*Node Package Manager*).
 
- - Captura: 
 
-<img src = "Linux/Captura de pantalla 2025-04-02 205826.png" width = "500">
-### Conceptos clave:
 
 - **WSL2**: Permite ejecutar Linux dentro de Windows sin virtualización pesada.
 - **Ubuntu**: Es una distribución de Linux utilizada en este entorno.
@@ -26,6 +23,31 @@ Para desarrollar aplicaciones modernas con Angular, es importante comprender el 
 
 (Se incluirán imágenes explicativas de cada concepto)
 
+ - Captura: 
+
+<img src = "Linux/Captura de pantalla 2025-04-02 205826.png" width = "500">
+### Conceptos clave:
+
+
+ - Captura: 
+
+<img src = "Linux/Captura de pantalla 2025-04-02 205826.png" width = "500">
+
+ - Captura: 
+
+<img src = "Linux/Captura de pantalla 2025-04-02 205826.png" width = "500">
+
+ - Captura: 
+
+<img src = "Linux/Captura de pantalla 2025-04-02 205826.png" width = "500">
+
+
+
+### Conceptos clave:
+
+### Conceptos clave:
+
+### Conceptos clave:
 ## 4. Conocimientos previos
 
 Para realizar esta práctica, el estudiante necesita conocer:
