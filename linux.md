@@ -119,7 +119,7 @@ cd linux-angular
 
 <img src = "Linux/Captura de pantalla 2025-04-02 215113.png" width = "500">
 
-### Paso 6: Ejecutar el servidor de desarrollo
+### Paso 6: Ejecutar el servidor de desarrollo, una vez todo haya sido completado mandaremos a correr  y verificamos que se ha creado el proyecto
 
 ```sh
 ng serve
@@ -127,14 +127,15 @@ ng serve
 
 - Capturas: 
 
- 
-
 <img src = "Linux/Captura de pantalla 2025-04-02 215555.png" width = "300">
  
+**Figura 1-1:** Captura de pantalla del proyecto ejecutado.
+
+
 <img src = "Linux/Captura de pantalla 2025-04-02 215604.png" width = "300">
  
 
-**Figura 1-1:** Captura de pantalla del servidor corriendo en `localhost:4200`.
+**Figura 1-2:** Captura de pantalla del servidor corriendo en `localhost:4200`.
 
 ## 9. Resultados esperados
 
