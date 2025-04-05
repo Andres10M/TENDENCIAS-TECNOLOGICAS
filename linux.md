@@ -144,6 +144,14 @@ ng serve
 - Creación y ejecución exitosa de un proyecto Angular.
 - Visualización de la aplicación en el navegador en `localhost:4200`.
 
+  ## 🔊 Audio Explicativo del Proyecto Angular en WSL2
+
+<audio controls>
+  <source src="audio/explicacion-angular.mp3" type="audio/mpeg">
+  Tu navegador no soporta audio HTML.
+</audio>
+
+
 ## 10. Bibliografía
 
 - Angular Developers. (s.f.). *Angular Documentation*. Recuperado de [https://angular.io/docs](https://angular.io/docs)
