@@ -59,7 +59,7 @@ docker run -d --name nginx1 -p 8089:80 nginx
 
 ```
 
- <img src = "Contenedores/Captura de pantalla 2025-04-12 152756.png" width = "500">
+
  
 ## Paso 2: Crear el segundo contenedor Nginx:
 ```bash
