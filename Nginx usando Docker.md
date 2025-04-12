@@ -1,4 +1,4 @@
-# Practica servidor web
+# Implementación de Servidores Web Personalizados con Docker y Nginx
 
 ## 1. Titulo
 **Despliegue de dos servidores web con Nginx usando Docker**
