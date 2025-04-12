@@ -108,10 +108,13 @@ Después de completar los pasos anteriores, se espera que los dos servidores Ngi
   
   <img src = "Contenedores/Captura de pantalla 2025-04-12 152801.png" width = "500">
 
+
+  ## 🔊 Audio Explicativo del proyecto Nginx usando Docker
+https://drive.google.com/file/d/1qaPFPWd0cJNMswMb0ZCt5gNy18vn9A4W/view?usp=sharing
+
 ## 10. Bibliografía:
 
-- Apellido, Nombre. (Año). *Título del libro o artículo*. Editorial.
-- Apellido, Nombre. (Año). *Título del libro o artículo*. Editorial.
+
 - Docker, Inc. (2021). *Docker Documentation*. Recuperado de [https://docs.docker.com/](https://docs.docker.com/)
 - Smith, J. (2019). *Learning Nginx*. O'Reilly Media.
 
