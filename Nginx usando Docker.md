@@ -20,7 +20,10 @@ Nginx es un servidor web y proxy inverso que se utiliza para distribuir contenid
 En esta práctica, se utilizaron dos contenedores Nginx, cada uno configurado para mostrar diferentes contenidos en su página de inicio (`index.html`). Este archivo puede ser modificado directamente dentro del contenedor utilizando comandos de Docker.
 
 #### Figura 3-1. Contenedores Docker
-![Contenedores Docker](./imagenes/contenerores_docker.png)
+![Contenedores Docker]- Captura: 
+
+<img src = "Contenedores/Captura de pantalla 2025-04-11 192803.png" width = "500">
+
 La imagen muestra dos contenedores Nginx corriendo en diferentes puertos.
 
 ## 4. Conocimientos previos
