@@ -6,7 +6,7 @@
 En esta práctica, se creó y personalizó dos servidores web basados en Nginx mediante contenedores Docker. Se editaron archivos HTML para personalizar el contenido de cada servidor y mostrar información institucional en uno y personal en el otro.
 
 ## 2. Tiempo de duración
-El tiempo estimado para realizar esta práctica fue de **45 minutos**.
+El tiempo estimado para realizar esta práctica fue de **180 minutos**, repartidos en tres días.
 
 ## 3. Fundamentos
 Docker es una herramienta de contenedores que permite ejecutar aplicaciones en entornos aislados. En esta práctica, se utilizó Docker para crear contenedores con la imagen oficial de Nginx, un servidor web muy popular por su alta eficiencia y facilidad de configuración.
@@ -58,17 +58,40 @@ Para realizar esta práctica, el estudiante necesita tener claros los siguientes
 docker run -d --name nginx1 -p 8089:80 nginx
 
 ```
+
+ <img src = "Contenedores/Captura de pantalla 2025-04-12 152756.png" width = "500">
+ 
 ## Paso 2: Crear el segundo contenedor Nginx:
 ```bash
 docker run -d --name nginx2 -p 8090:80 nginx
 
 
-**Paso 1**: Crear el primer contenedor Nginx con el siguiente comando:
-
-```bash
-docker run -d --name nginx1 -p 8089:80 nginx
-
 ```
+## Paso 3: Personalizar contenido
+
+Crear los archivos index.html en tu máquina local:
+
+Uno con contenido institucional
+
+Otro con contenido personalizado
+
+
+- **Index de la Institución:**
+
+ <img src = "Contenedores/Captura de pantalla 2025-04-12 155722.png" width = "500">
+
+- **Index del estudiante:**
+
+<img src = "Contenedores/Captura de pantalla 2025-04-12 155731.png" width = "500">
+
+Copiar los archivos a cada contenedor:
+```bash
+docker cp index_institucional.html nginx1:/usr/share/nginx/html/index.html
+docker cp index_personal.html nginx2:/usr/share/nginx/html/index.html
+```
+
+<img src = "Contenedores/Captura de pantalla 2025-04-11 192305.png" width = "500">
+
 ## 9. Resultados esperados:
 Después de completar los pasos anteriores, se espera que los dos servidores Nginx estén ejecutándose en los puertos 8089 y 8090, cada uno mostrando contenido personalizado en su archivo `index.html`. Al acceder a las siguientes URLs en un navegador:
 
@@ -79,11 +102,11 @@ Después de completar los pasos anteriores, se espera que los dos servidores Ngi
 
 - **Servidor 1:**
   
-  ![Servidor 1](./imagenes/servidor1.png)
+  <img src = "Contenedores/Captura de pantalla 2025-04-12 152756.png" width = "500">
 
 - **Servidor 2:**
   
-  ![Servidor 2](./imagenes/servidor2.png)
+  <img src = "Contenedores/Captura de pantalla 2025-04-12 152801.png" width = "500">
 
 ## 10. Bibliografía:
 
