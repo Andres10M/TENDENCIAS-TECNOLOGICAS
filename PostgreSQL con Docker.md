@@ -64,31 +64,52 @@ Paso 1: Crear contenedor PostgreSQL sin volumen
 ```bash
 docker run --name server_db1 -e POSTGRES_PASSWORD=postgres -p 5432:5432 -d postgres
 ```
+
+<img src = "postgres docker/Captura de pantalla 2025-04-16 130322.png" width = "300">
+
 Paso 2: Conectar pgAdmin a server_db1  
-*Agregar imagen con pgAdmin conectado*
+
+<img src = "postgres docker/Captura de pantalla 2025-04-16 130852.png" width = "300">
+
+<img src = "postgres docker/Captura de pantalla 2025-04-16 130858.png" width = "300">
 
 Paso 3: Crear base de datos test  
-*Agregar imagen de creación de base*
+
+<img src = "postgres docker/Captura de pantalla 2025-04-16 131837.png" width = "300">
 
 Paso 4: Crear tabla customer con columnas id, fullname, status  
-*Agregar imagen de la estructura de la tabla*
+
+<img src = "postgres docker/Captura de pantalla 2025-04-16 132253.png" width = "300">
+
 
 Paso 5: Insertar un registro  
-*Agregar imagen de la tabla con datos*
+
+<img src = "postgres docker/Captura de pantalla 2025-04-17 185348.png" width = "300">
+
+Comprobación de registro
+
+<img src = "postgres docker/Captura de pantalla 2025-04-17 185502.png" width = "300">
+
+Servidor corriendo
+
+<img src = "postgres docker/Captura de pantalla 2025-04-17 190006.png" width = "300">
 
 Paso 6: Eliminar contenedor
 ```bash
 docker stop server_db1
 docker rm server_db1
 ```
+<img src = "postgres docker/Captura de pantalla 2025-04-17 190056.png" width = "300">
 
 Paso 7: Verificar que la base test ya no existe  
-*Agregar captura mostrando que no hay datos*
+
+<img src = "postgres docker/Captura de pantalla 2025-04-17 190356.png" width = "300">
 
 **Figura 8-1. Diagrama de contenedor sin volumen**  
-*Agrega aquí una imagen representativa*
 
----
+<img src = "postgres docker/Captura de pantalla 2025-04-17 190135.png" width = "300">
+
+
 
 **Parte 2: Con volumen**
 
@@ -97,17 +118,17 @@ Paso 1: Crear volumen
 docker volume create pgdata
 ```
 
-Paso 2: Crear contenedor server_db2 con volumen
 ```bash
 docker run --name server_db2 -e POSTGRES_PASSWORD=postgres -p 5433:5432 -v pgdata:/var/lib/postgresql/data -d postgres
 ```
+<img src = "postgres docker/Captura de pantalla 2025-04-17 190947.png" width = "300">
 
-Paso 3: Conectar pgAdmin a server_db2  
+Paso 2: Conectar pgAdmin a server_db2  
 *Agregar imagen*
 
-Paso 4: Crear base de datos test  
-Paso 5: Crear tabla customer con columnas id, fullname, status  
-Paso 6: Insertar un registro  
+Paso 3: Crear base de datos test  
+Paso 4: Crear tabla customer con columnas id, fullname, status  
+Paso 5: Insertar un registro  
 *Agregar imágenes correspondientes*
 
 Paso 7: Detener y eliminar el contenedor
