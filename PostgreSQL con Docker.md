@@ -159,11 +159,8 @@ Paso 7: Verificar que la base de datos y los datos aún existen
 - **Sin volumen:** al eliminar el contenedor, se pierden todos los datos.
 - **Con volumen:** al eliminar el contenedor y recrearlo con el mismo volumen, los datos persisten.
 
-**Captura del resultado sin volumen:**  
-*Agregar imagen donde se ve que no hay base de datos*
-
-**Captura del resultado con volumen:**  
-*Agregar imagen donde se ve que la tabla y datos están presentes después de eliminar y recrear el contenedor*
+  ## 🔊 Audio Explicativo del Proyecto Angular en WSL2
+https://drive.google.com/file/d/1mXtHhZEFujZg_6AHTyE7z8aRfiMtnSlP/view?usp=sharing
 
 ## 10. Bibliografía
 
