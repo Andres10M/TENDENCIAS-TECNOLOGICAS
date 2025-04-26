@@ -23,9 +23,7 @@ El flujo general de la práctica incluye:
 3. Levantar un contenedor de phpMyAdmin, configurando las credenciales y estableciendo la conexión con el contenedor de MySQL.
 4. Crear una base de datos de prueba utilizando la interfaz gráfica de phpMyAdmin.
 
-**Imagen 1-1**: Diagrama de contenedores Docker para la práctica.
 
-![Diagrama de contenedores](https://via.placeholder.com/800x400.png)
 
 ## 4. Conocimientos previos.
 
@@ -66,6 +64,7 @@ Ejecutar el siguiente comando para crear una red personalizada que permita la co
 sudo docker network create mi_red
 
 ```
+<img src = "docker base/Captura de pantalla 2025-04-23 164218.png" width = "400">
 
 ### Paso 2: Crear el contenedor de MySQL
 Ejecutar el siguiente comando para crear el contenedor de MySQL, definiendo las credenciales de acceso:
@@ -73,12 +72,21 @@ Ejecutar el siguiente comando para crear el contenedor de MySQL, definiendo las 
 ```bash
 sudo docker run --name mysql-container --network mi_red -e MYSQL_ROOT_PASSWORD=rootpassword -d mysql:latest
 ```
+
+<img src = "docker base/Captura de pantalla 2025-04-23 164218.png" width = "400">
+
+docker base/Captura de pantalla 2025-04-23 164227.png
+
 ### Paso 3: Crear el contenedor de phpMyAdmin
 Ejecutar el siguiente comando para crear el contenedor de phpMyAdmin, configurando las credenciales de acceso a la base de datos MySQL:
 
 ```bash
 sudo docker run --name phpmyadmin-container --network mi_red -d -p 8080:80 phpmyadmin/phpmyadmin
 ```
+
+<img src = "docker base/Captura de pantalla 2025-04-23 164227.png" width = "400">
+
+
 ### Paso 4: Acceder a phpMyAdmin
 Abrir el navegador y acceder a [http://localhost:8080](http://localhost:8080). Iniciar sesión con las siguientes credenciales:
 
@@ -88,12 +96,17 @@ Abrir el navegador y acceder a [http://localhost:8080](http://localhost:8080). I
 
 ---
 
+<img src = "docker base/Captura de pantalla 2025-04-23 163356.png" width = "400">
+
+
 ### Paso 5: Crear una base de datos de prueba
 Una vez dentro de phpMyAdmin, podrás crear una base de datos de prueba desde la interfaz gráfica.
 
 **Figura 1-2**: Interfaz de phpMyAdmin para la creación de bases de datos.
 
 ---
+
+<img src = "docker base/Captura de pantalla 2025-04-23 163829.png" width = "400">
 
 ## 9. Resultados esperados
 
@@ -103,10 +116,8 @@ Al completar los pasos anteriores, deberías poder:
 - Iniciar sesión con el usuario y contraseña configurados
 - Crear una base de datos de prueba en MySQL
 
-### Captura de pantalla de la interfaz de phpMyAdmin:
-> *(Aquí puedes insertar una imagen de la interfaz de phpMyAdmin si lo deseas)*
-
----
+  ## 🔊 Audio Explicativo del proyecto Nginx usando Docker
+https://drive.google.com/file/d/1qaPFPWd0cJNMswMb0ZCt5gNy18vn9A4W/view?usp=sharing
 
 ## 10. Bibliografía
 
