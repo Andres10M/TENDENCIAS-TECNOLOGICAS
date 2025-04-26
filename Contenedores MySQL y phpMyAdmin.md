@@ -116,7 +116,7 @@ Al completar los pasos anteriores, deberías poder:
 - Iniciar sesión con el usuario y contraseña configurados
 - Crear una base de datos de prueba en MySQL
 
-  ## 🔊 Audio Explicativo del proyecto Nginx usando Docker
+  ## 🔊 Audio Explicativo del proyecto Contenedores MySQL y phpMyAdmin
 https://drive.google.com/file/d/1qaPFPWd0cJNMswMb0ZCt5gNy18vn9A4W/view?usp=sharing
 
 ## 10. Bibliografía
