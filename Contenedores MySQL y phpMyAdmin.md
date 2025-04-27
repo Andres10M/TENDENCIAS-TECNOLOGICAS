@@ -117,7 +117,7 @@ Al completar los pasos anteriores, deberías poder:
 - Crear una base de datos de prueba en MySQL
 
   ## 🔊 Audio Explicativo del proyecto Contenedores MySQL y phpMyAdmin
-https://drive.google.com/file/d/1qaPFPWd0cJNMswMb0ZCt5gNy18vn9A4W/view?usp=sharing
+https://drive.google.com/file/d/1kBJrE-8EDo8s6kAbm8MpG--bMTyyoDeQ/view?usp=sharing
 
 ## 10. Bibliografía
 
