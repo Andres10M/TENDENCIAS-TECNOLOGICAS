@@ -58,12 +58,15 @@ Para realizar esta práctica el estudiante necesita:
 ```bash
 docker network create wordpress-net
 ```
+<img src = "WORDPRES/Captura de pantalla 2025-04-30 152545.png" width = "400">
 
 ## Paso 2: Crear un volumen para persistir datos (opcional pero recomendado)
 
 ```bash
 docker volume create wordpress-data
 ```
+<img src = "WORDPRES/Captura de pantalla 2025-04-30 152545.png" width = "400">
+
 ## Paso 3: Crear el contenedor de MySQL
 
 ```bash
@@ -75,6 +78,7 @@ docker run -d --name mysql-container \
   mysql:latest
 
   ```
+<img src = "WORDPRES/Captura de pantalla 2025-04-30 152641.png" width = "400">
 
   ## Paso 4: Crear el contenedor de phpMyAdmin
 
@@ -85,6 +89,7 @@ docker run -d --name phpmyadmin-container \
   -p 8080:80 \
   phpmyadmin/phpmyadmin
 ```
+<img src = "WORDPRES/Captura de pantalla 2025-04-30 152735.png" width = "400">
 
 ## Paso 5: Crear el contenedor de WordPress
 
@@ -99,11 +104,17 @@ docker run -d --name wordpress-container \
   wordpress:latest
 
 ```
+<img src = "WORDPRES/Captura de pantalla 2025-04-30 153341.png" width = "400">
 
 ## Paso 6: Acceder a las aplicaciones
 
 - **WordPress**: [http://localhost:8000](http://localhost:8000)
+
+  <img src = "WORDPRES/Captura de pantalla 2025-04-30 152820.png" width = "400">
+  
 - **phpMyAdmin**: [http://localhost:8080](http://localhost:8080)
+
+<img src = "WORDPRES/Captura de pantalla 2025-04-30 161212.png" width = "400">
 
 Inicia sesión en **phpMyAdmin** con:
 - **Usuario**: `root`
@@ -112,12 +123,14 @@ Inicia sesión en **phpMyAdmin** con:
 
 ---
 
+<img src = "WORDPRES/Captura de pantalla 2025-04-30 161336.png" width = "400">
+
 ## Paso 7: Completar la instalación de WordPress
 
 Accede a WordPress en el navegador, elige idioma, configura el título del sitio, usuario, contraseña y correo electrónico.
 
 ---
-
+<img src = "WORDPRES/Captura de pantalla 2025-04-30 164446.png" width = "400">
 ## 9. Resultados esperados
 
 Al completar los pasos:
