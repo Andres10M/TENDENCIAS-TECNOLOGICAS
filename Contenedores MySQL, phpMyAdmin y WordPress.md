@@ -148,7 +148,7 @@ Al completar los pasos:
 
 ## 🔊 Audio Explicativo del proyecto
 
-*[Enlace al audio explicativo](https://drive.google.com/)*
+https://drive.google.com/file/d/1-vHjz3bZA-30u6mHOAcPhXm3z_XqdvC4/view?usp=sharing
 
 ---
 
