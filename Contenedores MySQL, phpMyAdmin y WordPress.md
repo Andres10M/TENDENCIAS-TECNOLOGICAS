@@ -110,11 +110,13 @@ docker run -d --name wordpress-container \
 
 - **WordPress**: [http://localhost:8000](http://localhost:8000)
 
-  <img src = "WORDPRES/Captura de pantalla 2025-04-30 152820.png" width = "400">
+  <img src = "WORDPRES/Captura de pantalla 2025-04-30 161212.png" width = "400">
+
   
 - **phpMyAdmin**: [http://localhost:8080](http://localhost:8080)
 
-<img src = "WORDPRES/Captura de pantalla 2025-04-30 161212.png" width = "400">
+
+  <img src = "WORDPRES/Captura de pantalla 2025-04-30 152820.png" width = "400">
 
 Inicia sesión en **phpMyAdmin** con:
 - **Usuario**: `root`
@@ -123,14 +125,17 @@ Inicia sesión en **phpMyAdmin** con:
 
 ---
 
-<img src = "WORDPRES/Captura de pantalla 2025-04-30 161336.png" width = "400">
+<img src = "WORDPRES/Captura de pantalla 2025-04-30 164527.png" width = "400">
 
 ## Paso 7: Completar la instalación de WordPress
 
 Accede a WordPress en el navegador, elige idioma, configura el título del sitio, usuario, contraseña y correo electrónico.
 
 ---
+<img src = "WORDPRES/Captura de pantalla 2025-04-30 161336.png" width = "400">
+
 <img src = "WORDPRES/Captura de pantalla 2025-04-30 164446.png" width = "400">
+
 ## 9. Resultados esperados
 
 Al completar los pasos:
