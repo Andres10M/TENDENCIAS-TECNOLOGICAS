@@ -101,3 +101,56 @@ volumes:
 
 networks:
   wp_net:
+```
+
+## Paso 2: Iniciar los servicios
+Ejecutar en la terminal:
+
+```bash
+docker-compose up -d
+```
+## Paso 3: Acceder a los servicios
+
+- **WordPress**: [http://localhost:8080](http://localhost:8080)
+- **pgAdmin**: [http://localhost:5050](http://localhost:5050)
+
+## Paso 4: Ingresar a pgAdmin
+
+- **Correo**: `admin@example.com`
+- **Contraseña**: `admin`
+
+Conectar al servidor PostgreSQL con los datos configurados:
+
+- **Host**: `postgres`
+- **Usuario**: `wp_user`
+- **Contraseña**: `wp_password`
+
+### Capturas de pantalla (opcional)
+
+Puedes incluir aquí imágenes como evidencia del funcionamiento, por ejemplo:
+
+```markdown
+![WordPress funcionando](docker-wordpress/captura-wordpress.png)
+![pgAdmin conectado](docker-wordpress/captura-pgadmin.png)
+```
+
+## 5. Resultados esperados
+
+- WordPress desplegado correctamente usando PostgreSQL como base de datos.
+- Acceso funcional a pgAdmin para administrar la base de datos.
+- Comunicación entre los tres contenedores a través de la red definida.
+- Persistencia de datos gracias al volumen `pgdata`.
+
+## 🔊 Audio Explicativo del Proyecto WordPress + PostgreSQL + pgAdmin
+
+[Audio Explicativo](https://drive.google.com/file/d/1kBJrE-8EDo8s6kAbm8MpG--bMTyyoDeQ/view?usp=sharing)
+
+## 6. Bibliografía
+
+- Docker, Inc. (2024). *Docker Compose Documentation*. Recuperado de: [https://docs.docker.com/compose/](https://docs.docker.com/compose/)
+- PostgreSQL Global Development Group. (2024). *PostgreSQL Documentation*. [https://www.postgresql.org/docs/](https://www.postgresql.org/docs/)
+- WordPress.org. (2024). *WordPress Codex*. [https://wordpress.org/support/](https://wordpress.org/support/)
+- pgAdmin. (2024). *pgAdmin Documentation*. [https://www.pgadmin.org/docs/](https://www.pgadmin.org/docs/)
+
+
+
