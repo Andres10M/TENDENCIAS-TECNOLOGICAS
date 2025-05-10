@@ -103,37 +103,34 @@ networks:
   wp_net:
 ```
 
+
 ## Paso 2: Iniciar los servicios
 Ejecutar en la terminal:
 
 ```bash
 docker-compose up -d
 ```
+<img src = "bloc de notas/Captura de pantalla 2025-05-10 151511.png" width = "400">
+<img src = "bloc de notas/Captura de pantalla 2025-05-10 152630.png" width = "400">
+<img src = "bloc de notas/Captura de pantalla 2025-05-10 152641.png" width = "400">
 ## Paso 3: Acceder a los servicios
 
 - **WordPress**: [http://localhost:8080](http://localhost:8080)
+<img src = "bloc de notas/Captura de pantalla 2025-05-10 153327.png" width = "400">
+  
 - **pgAdmin**: [http://localhost:5050](http://localhost:5050)
+<img src = "bloc de notas/Captura de pantalla 2025-05-10 153333.png" width = "400">
 
 ## Paso 4: Ingresar a pgAdmin
 
 - **Correo**: `admin@example.com`
 - **Contraseña**: `admin`
-
+<img src = "bloc de notas/Captura de pantalla 2025-05-10 153406.png" width = "400">
 Conectar al servidor PostgreSQL con los datos configurados:
 
-- **Host**: `postgres`
-- **Usuario**: `wp_user`
-- **Contraseña**: `wp_password`
+<img src = "bloc de notas/Captura de pantalla 2025-05-10 153615.png" width = "400">
 
-### Capturas de pantalla (opcional)
-
-Puedes incluir aquí imágenes como evidencia del funcionamiento, por ejemplo:
-
-```markdown
-![WordPress funcionando](docker-wordpress/captura-wordpress.png)
-![pgAdmin conectado](docker-wordpress/captura-pgadmin.png)
-```
-
+<img src = "bloc de notas/Captura de pantalla 2025-05-10 165021.png" width = "400">
 ## 5. Resultados esperados
 
 - WordPress desplegado correctamente usando PostgreSQL como base de datos.
@@ -143,7 +140,7 @@ Puedes incluir aquí imágenes como evidencia del funcionamiento, por ejemplo:
 
 ## 🔊 Audio Explicativo del Proyecto WordPress + PostgreSQL + pgAdmin
 
-[Audio Explicativo](https://drive.google.com/file/d/1kBJrE-8EDo8s6kAbm8MpG--bMTyyoDeQ/view?usp=sharing)
+https://drive.google.com/drive/home
 
 ## 6. Bibliografía
 
