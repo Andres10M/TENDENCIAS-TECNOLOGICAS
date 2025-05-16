@@ -108,3 +108,17 @@ Frontend muestra correctamente datos consumidos desde el backend mockAPI corrien
 - Comunicación exitosa entre frontend y backend.
 - Solución de error de puerto ocupado en Docker al cambiar puerto.
 
+## 🔊 Audio Explicativo del proyecto Contenedores MySQL y phpMyAdmin
+
+[Escuchar audio explicativo](https://drive.google.com/file/d/1kBJrE-8EDo8s6kAbm8MpG--bMTyyoDeQ/view?usp=sharing)
+
+
+
+## 10. Bibliografía
+
+- Docker, Inc. (2024). *Documentación oficial de Docker*. Recuperado de: [https://docs.docker.com/](https://docs.docker.com/)
+- Typicode. (2024). *json-server: Fake REST API*. Recuperado de: [https://github.com/typicode/json-server](https://github.com/typicode/json-server)
+- ReactJS. (2024). *Documentación oficial de React*. Recuperado de: [https://react.dev/](https://react.dev/)
+- Node.js Foundation. (2024). *Documentación oficial de Node.js*. Recuperado de: [https://nodejs.org/en/docs](https://nodejs.org/en/docs)
+- GitHub, Inc. (2024). *Repositorio mockAPI utilizado en el proyecto*. Recuperado de: [https://github.com/Daviddotcoms/mockAPI](https://github.com/Daviddotcoms/mockAPI)
+- NGINX. (2024). *Using NGINX for serving static files*. Recuperado de: [https://docs.nginx.com/](https://docs.nginx.com/)
