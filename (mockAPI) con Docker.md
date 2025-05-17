@@ -55,18 +55,27 @@ cd mockAPI
 npm install
 npm start
 ```
+<img src = "MOCKAPI/Captura de pantalla 2025-05-16 085452.png" width = "400">
+
+
+
 El backend quedó disponible en [http://localhost:3100](http://localhost:3100) con endpoints:
 
 - `/classmates`
 - `/teachers`
+<img src = "MOCKAPI/Captura de pantalla 2025-05-16 090516.png" width = "400">
 
 ## Paso 2: Clonar y ejecutar frontend localmente
 
-Se verificó que el proyecto frontend funciona bien en modo desarrollo, accediendo al puerto 3000.
+Se verificó que el proyecto frontend funciona bien en modo desarrollo, accediendo al puerto 3000
+5173.
+
+<img src = "MOCKAPI/Captura de pantalla 2025-05-16 090547.png" width = "400">
 
 ## Paso 3: Crear Dockerfile para frontend
 
 Archivo `Dockerfile` creado con instrucciones para contenerizar la app frontend, incluyendo instalación de dependencias y build.
+
 
 Ejemplo básico:
 
@@ -83,23 +92,31 @@ COPY --from=build /app/build /usr/share/nginx/html
 EXPOSE 80
 CMD ["nginx", "-g", "daemon off;"]
 ```
+<img src = "MOCKAPI/Captura de pantalla 2025-05-16 091606.png" width = "400">
+
+<img src = "MOCKAPI/Captura de pantalla 2025-05-16 091614.png" width = "400">
 
 ## Paso 4: Construir imagen Docker
 
 ```bash
 docker build -t suda-frontend .
 ```
+
+<img src = "MOCKAPI/Captura de pantalla 2025-05-16 093302.png" width = "400">
 ## Paso 5: Ejecutar contenedor frontend
 
 ```bash
 docker run -d -p 3000:80 suda-frontend
 ```
+<img src = "MOCKAPI/Captura de pantalla 2025-05-16 093305.png" width = "400">
+
 
 Se cambió el puerto de exposición a 3000 para evitar conflictos con otros contenedores (antes 8080 estaba ocupado).
 
 ## Paso 6: Verificar que frontend consume backend
 
 Frontend muestra correctamente datos consumidos desde el backend mockAPI corriendo en el puerto 3100.
+<img src = "MOCKAPI/Captura de pantalla 2025-05-16 090555.png" width = "400">
 
 ## 9. Resultados esperados
 
@@ -107,6 +124,10 @@ Frontend muestra correctamente datos consumidos desde el backend mockAPI corrien
 - Frontend funcionando en contenedor Docker expuesto en puerto 3000.
 - Comunicación exitosa entre frontend y backend.
 - Solución de error de puerto ocupado en Docker al cambiar puerto.
+
+<img src = "MOCKAPI/Captura de pantalla 2025-05-16 093833.png" width = "400">
+
+<img src = "MOCKAPI/Captura de pantalla 2025-05-16 093846.png" width = "400">
 
 ## 🔊 Audio Explicativo del proyecto Contenedores MySQL y phpMyAdmin
 
