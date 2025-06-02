@@ -202,6 +202,7 @@ Agregar un nuevo servidor:
 ## **🔊 Audio Explicativo del Proyecto**
 
 Enlace al audio explicativo aquí
+https://drive.google.com/file/d/1JGbLQ5OMKVxUGOPLT--ObFNW6Nx3RzNp/view?usp=sharing
 
 ---
 
