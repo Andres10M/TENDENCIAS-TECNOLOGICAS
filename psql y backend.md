@@ -62,6 +62,8 @@ Se utilizó Docker Compose para definir y coordinar múltiples servicios, incluy
 git clone https://github.com/maguaman2/tendencias-mar22-security.git
 cd tendencias-mar22-security
 ```
+
+<img src = "bak/Captura de pantalla 2025-05-31 173436.png" width = "400">
 ## **Paso 2: Crear el archivo `.env`**
 
 ```env
@@ -71,6 +73,7 @@ POSTGRES_DB=mi_base
 PGADMIN_DEFAULT_EMAIL=admin@correo.com
 PGADMIN_DEFAULT_PASSWORD=admin123
 ```
+<img src = "bak/Captura de pantalla 2025-05-31 174439.png" width = "400">
 ## Paso 3: Crear el `docker-compose.yml`
 
 ```yaml
@@ -130,6 +133,8 @@ networks:
     driver: bridge
 
 ```
+
+<img src = "bak/Captura de pantalla 2025-05-31 174456.png" width = "400">
 # Etapa de construcción
 FROM maven:3.9.2-eclipse-temurin-17 AS builder
 WORKDIR /app
@@ -148,15 +153,21 @@ ENTRYPOINT ["java", "-jar", "app.jar"]
 ```bash
 docker-compose --env-file .env up --build
 ```
+
+<img src = "bak/Captura de pantalla 2025-05-31 181827.png" width = "400">
+
 ## **Paso 6: Acceder a pgAdmin**
 
 Abrir en el navegador: [http://localhost:5050](http://localhost:5050)
+
+<img src = "bak/Captura de pantalla 2025-05-31 174657.png" width = "400">
 
 Iniciar sesión con:
 
 - **Email:** admin@correo.com
 - **Contraseña:** admin123
 
+<img src = "bak/Captura de pantalla 2025-05-31 174919.png" width = "400">
 Agregar un nuevo servidor:
 
 - **Nombre:** PostgreSQL Local
@@ -167,12 +178,17 @@ Agregar un nuevo servidor:
 
 ---
 
-## **Paso 7: Verificar conexión del backend**
 
-Ir a [http://localhost:8080](http://localhost:8080) y verificar que la aplicación se conecta correctamente a la base de datos.
+<img src = "bak/Captura de pantalla 2025-05-31 181034.png" width = "400">
+
+## **Paso 7: Verificar conexión del backend**
+ verificar que la aplicación se conecta correctamente a la base de datos.
 
 ---
 
+<img src = "bak/Captura de pantalla 2025-06-01 213428.png" width = "400">
+
+<img src = "bak/Captura de pantalla 2025-06-01 213435.png" width = "400">
 ## **9. Resultados esperados**
 
 - Acceso exitoso a pgAdmin desde el navegador.
