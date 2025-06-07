@@ -214,8 +214,7 @@ tu-proyecto/
 ---
 
 ## 🔊 Audio Explicativo del Proyecto Fullstack con Docker
-
-**Audio Explicativo:** *(agregar enlace o insertar reproductor si se publica online)*
+https://drive.google.com/file/d/1vsT1J4zRS4WCAxCkRLI-3mmhQdGOt0sb/view?usp=sharing
 
 ---
 
