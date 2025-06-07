@@ -149,6 +149,7 @@ docker-compose up --build
 
 ## Estructura del proyecto
 
+```
 tu-proyecto/
 ├── docker-compose.yml
 ├── frontend/
@@ -157,7 +158,7 @@ tu-proyecto/
 ├── backend/
 │ ├── Dockerfile
 │ └── (código NestJS)
-
+```
 
 ---
 
