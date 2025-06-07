@@ -47,8 +47,23 @@ Los conceptos clave aplicados fueron:
 - [Documentación de PostgreSQL](https://www.postgresql.org/docs/)
 
 ## 8. Procedimiento
+### Se crea tanto el frontend como el backend y se descargan sus paquetes y dependencias
+## Backend-socios
+
+<img src = "frontback/Captura de pantalla 2025-06-07 123533.png" width = "400">
+
+<img src = "frontback/Captura de pantalla 2025-06-07 123802.png" width = "400">
+
+<img src = "frontback/Captura de pantalla 2025-06-07 124020.png" width = "400">
 
 ### Paso 1: Crear el archivo `docker-compose.yml`
+
+
+
+<img src = "frontback/Captura de pantalla 2025-06-07 124823.png" width = "400">
+
+
+
 
 ```yaml
 version: '3.8'
@@ -98,8 +113,23 @@ services:
 volumes:
   postgres_data:
 ```
+## Levantar la base de Datos
 
-## Paso 2: Dockerfile para el frontend (React)
+<img src = "frontback/Captura de pantalla 2025-06-07 130249.png" width = "400">
+
+## Paso 2: Creación y Dockerfile para el frontend (React)
+
+<img src = "frontback/Captura de pantalla 2025-06-07 130812.png" width = "400">
+
+<img src = "frontback/Captura de pantalla 2025-06-07 131009.png" width = "400">
+
+<img src = "frontback/Captura de pantalla 2025-06-07 164918.png" width = "400">
+
+<img src = "frontback/Captura de pantalla 2025-06-07 164926.png" width = "400">
+
+
+
+
 **Ubicado en `frontend/Dockerfile`:**
 
 ```Dockerfile
@@ -139,13 +169,24 @@ En la terminal, ejecutar:
 ```bash
 docker-compose up --build
 ```
+<img src = "frontback/Captura de pantalla 2025-06-07 154007.png" width = "400">
 ## Paso 5: Acceder a los servicios
 
 - **Frontend (React):** [http://localhost:5173](http://localhost:5173)
+<img src = "frontback/Captura de pantalla 2025-06-07 154057.png" width = "400">
+
 - **Backend (NestJS API):** [http://localhost:3000](http://localhost:3000)
+
+<img src = "frontback/Captura de pantalla 2025-06-07 153329.png" width = "400">
 - **Base de datos PostgreSQL:** Puerto `5432` (accesible desde pgAdmin o DBeaver)
 
 ---
+## Prueba de correcta conexión del back y frontd
+
+<img src = "frontback/Captura de pantalla 2025-06-07 154057.png" width = "400">
+
+
+<img src = "frontback/Captura de pantalla 2025-06-07 154146.png" width = "400">
 
 ## Estructura del proyecto
 
