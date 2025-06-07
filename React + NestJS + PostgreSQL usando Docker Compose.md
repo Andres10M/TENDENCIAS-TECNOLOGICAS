@@ -183,7 +183,7 @@ docker-compose up --build
 ---
 ## Prueba de correcta conexión del back y frontd
 
-<img src = "frontback/Captura de pantalla 2025-06-07 154057.png" width = "400">
+<img src = "frontback/Captura de pantalla 2025-06-07 154125.png" width = "400">
 
 
 <img src = "frontback/Captura de pantalla 2025-06-07 154146.png" width = "400">
@@ -200,12 +200,6 @@ tu-proyecto/
 │ ├── Dockerfile
 │ └── (código NestJS)
 ```
-
----
-
-## Capturas de pantalla (opcional)
-
-*(Agregar imágenes si se desea)*
 
 ---
 
