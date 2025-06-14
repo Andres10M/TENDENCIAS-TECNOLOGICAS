@@ -136,15 +136,18 @@ volumes:
 ```bash
 docker-compose up --build
 ```
- "<img src = "cap2/Captura de pantalla 2025-06-13 204341.png" width = "400">"
+ <img src = "cap2/Captura de pantalla 2025-06-13 204341.png" width = "400">
 
 ## 9. Resultados esperados
 
 - La base de datos **PostgreSQL** está corriendo en el contenedor `db` en el puerto `5432`.
 - El **backend** está activo y puede conectarse a la base de datos.
 - El **frontend** es accesible desde el navegador en [http://localhost:3000](http://localhost:3000), sirviendo archivos estáticos desde **Nginx**.
+  <img src = "cap2/Captura de pantalla 2025-06-13 213052.png" width = "400">
 - La comunicación entre **frontend**, **backend** y **base de datos** es exitosa.
+- <img src = "cap2/Captura de pantalla 2025-06-13 214153.png" width = "400">
 - Toda la aplicación está contenida y ejecutándose con **Docker**.
+<img src = "cap2/Captura de pantalla 2025-06-13 214206.png" width = "400">
 
 ## 10. Bibliografía
 
