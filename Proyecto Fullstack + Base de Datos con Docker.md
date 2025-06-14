@@ -53,7 +53,14 @@ Los conceptos clave aplicados incluyen:
 
 ## 8. Procedimiento
 
-### Paso 1: Crear Dockerfile para el build del frontend
+### Paso 1: Crear el backend y el frontend en mi proyecto llamado ¨cooperativa-app¨
+
+<img src = "cap2/Captura de pantalla 2025-06-13 121211.png" width = "400">
+
+
+### Crear el build del frontend y backend
+
+
 
 ```dockerfile
 # Dockerfile.build
@@ -64,8 +71,12 @@ RUN npm install
 COPY . .
 RUN npm run build
 ```
+"<img src = "cap2/Captura de pantalla 2025-06-13 214309.png" width = "400">" 
 
 ### Paso 2: Crear Dockerfile para servir el frontend con Nginx
+
+ "<img src = "cap2/Captura de pantalla 2025-06-13 214309.png" width = "400">" 
+
 
 ```dockerfile
 # Dockerfile.nginx
@@ -75,7 +86,7 @@ EXPOSE 80
 CMD ["nginx", "-g", "daemon off;"]
 ```
 
-
+ "<img src = "cap2/Captura de pantalla 2025-06-13 214309.png" width = "400">" 
 
 ### Paso 3: Configurar archivo `docker-compose.yml`
 
@@ -119,11 +130,14 @@ volumes:
   pgdata:
 ```
 
+ "<img src = "cap2/Captura de pantalla 2025-06-13 214334.png" width = "400">" 
 ### Paso 4: Construir y levantar la aplicación
 
 ```bash
 docker-compose up --build
 ```
+ "<img src = "cap2/Captura de pantalla 2025-06-13 204341.png" width = "400">"
+
 ## 9. Resultados esperados
 
 - La base de datos **PostgreSQL** está corriendo en el contenedor `db` en el puerto `5432`.
