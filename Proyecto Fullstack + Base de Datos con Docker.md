@@ -149,6 +149,11 @@ docker-compose up --build
 - Toda la aplicación está contenida y ejecutándose con **Docker**.
 <img src = "cap2/Captura de pantalla 2025-06-13 214206.png" width = "400">
 
+
+  ## 🔊 Audio Explicativo del proyecto Nginx usando Docker
+https://drive.google.com/file/d/1Ad5wqpZQluQTL4xv5lPeWihJI3g6dQgY/view?usp=sharing
+
+
 ## 10. Bibliografía
 
 - **Docker, Inc.** (2024). *Documentación oficial de Docker*. Recuperado de: https://docs.docker.com/
