@@ -110,7 +110,7 @@ Después de completar los pasos anteriores, se espera que los dos servidores Ngi
 
 
   ## 🔊 Audio Explicativo del proyecto Nginx usando Docker
-https://drive.google.com/file/d/1qaPFPWd0cJNMswMb0ZCt5gNy18vn9A4W/view?usp=sharing
+https://drive.google.com/file/d/1Ad5wqpZQluQTL4xv5lPeWihJI3g6dQgY/view?usp=sharing
 
 ## 10. Bibliografía:
 
